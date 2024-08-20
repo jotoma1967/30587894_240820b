@@ -29,8 +29,8 @@ if __name__ == '__main240820b__':
 
 @app.route('/')
 def get_data():
-    name = 'Alfonso'
-    return render_template('index.html', name = name)
+    name1 = 'Alfonso'
+    return render_template('index.html', name = name1)
 
 
 print("Iniciando")
